@@ -1,0 +1,16 @@
+.cartView {
+  right: 0em;
+  height: 100%;
+  .cartIcon {
+    height: 2em;
+  }
+  .cartContent {
+    transition: width 0.5s;
+  }
+  .closeCart {
+    width: 0px;
+  }
+  .openCart {
+    width: 15em;
+  }
+}
